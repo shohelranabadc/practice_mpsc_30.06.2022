@@ -1,0 +1,688 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+}
+
+body{
+    background-color: #EFEFEF;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.shadow{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+}
+
+.rules_h4{
+    text-align: center;
+    padding: 10px
+}
+
+.margin_left_10{
+    margin-left: 10px;
+}
+
+.margin_right_10{
+    margin-right: 10px;
+}
+
+.margin_top_10{
+    margin-top: 10px;
+}
+
+.margin-bottom_10{
+    margin-bottom: 10px;
+}
+
+.margin_left_20{
+    margin-left: 20px;
+}
+
+.margin_right_20{
+    margin-right: 20px;
+}
+
+.margin_top_20{
+    margin-top: 20px;
+}
+
+.margin-bottom_20{
+    margin-bottom: 20px;
+}
+
+
+.containter{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+}
+
+/* Start top header */
+.header_top{
+    width: 100%;
+    background-color: #47548A;
+    overflow: hidden;
+    height: 55px;
+}
+
+.header_top p{
+    float: left;
+    padding: 15px 20px;
+    color: #fff;
+    width: 25%;
+}
+
+.header_top a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    float: left;
+    margin-top: 7px;
+    color: #fff;
+    width: 25%;
+}
+
+.top_header_button{
+    background-color: red;
+    box-shadow: 3px 6px #242A45;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    right: 50px;
+}
+
+.top_header_button:hover{
+    background-color: #008000
+}
+/* End top header */
+
+/* Start header middle school logo and name */
+.header_middle{
+    width: 100%;
+    background-color: #2F1958;
+    float: left;
+    height: 120px;
+}
+
+.school_logo{
+    position: relative;
+    width: 25%;
+    float: left;
+}
+
+.school_logo img{
+    display: block;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
+
+.institution_name{
+    width: 75%;
+    padding: 30px 0px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.institution_name h1, .institution_name h2{
+    color: #fff;
+    text-align:center;
+}
+
+.institution_name h1{
+    font-size: 2.8em;
+    position: relative;
+    left: 12%;
+}
+
+.institution_name h2{
+    font-size: 1.5em;
+    position: relative;
+    left: 12%;
+}
+
+/* Start nav bar */
+nav{
+    width: 100%;
+    background-color: #2F1958;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    list-style-type: none;
+    float: left;
+}
+
+nav ul li:hover a{
+    /* background-color: rgba(0,0,0,0.6); */
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 15px 25px;
+}
+
+.dropdown_content a:hover{
+    background-color: #ddd;
+}
+
+.dropdown_content a{
+    display: block;
+    color: #333;
+}
+
+.dropdown_content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown_content{
+    display:block;
+}
+/* End nav bar */
+/* End header middle school logo and name */
+
+
+/* Start marquee section */
+.marqu_div{
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.marqu_span{
+    color: red;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.marqu_div a{
+    color: black;
+    text-decoration: none;
+}
+
+.marqu_div a:hover{
+    text-decoration: underline;
+}
+/* End marquee section */
+
+
+/* Start Notice Board */
+.notice_board{
+    width: 90%;
+    background-color: #fff;
+    position: relative;
+    top: 10px;
+    margin: 0 auto;
+    padding: 15px;
+    /* height: 100px; */
+    overflow: hidden;
+}
+
+.ntc_left, .ntc_right{
+    width: 46%;
+    float: left;
+    
+}
+
+.ntc_left{
+    margin-right: 40px;
+}
+
+.ntc_right{
+    margin-left: 40px;
+}
+
+.notice_board a{
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid green;
+    width: 100%;
+    text-decoration: none;
+    color: red;
+}
+
+.notice_board a:hover{
+    background-color:green;
+    color: #fff;
+    text-decoration: underline;
+}
+/* End Notice Board */
+
+
+
+/* start main section */
+#container_of_main_section{
+    width: 90%;
+    margin: 20px auto;
+}
+
+.row_one_container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.row1_col1{
+    width: 70%;
+    margin-right: 10px
+}
+
+
+/* start slide show section */
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    /* margin: auto; */
+  }
+
+.mySlides img{
+    position: relative;
+    border: 3px solid #fff;
+    height: 100%;
+}
+
+
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+/* End slide show important info section */
+
+/* start important massage row 1 */
+.row1_col2{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-left: 10px;
+}
+
+.row1_col2 h2{
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.important_information_link{
+
+}
+
+.important_information_link a{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight:bolder;
+}
+
+.important_information_link a:hover{
+    text-decoration: underline;
+}
+
+/* start massage from charmain, principal and genaral notice board */
+.massage_box_container{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.massage_box_width_35_persent{
+    width: 35%;
+
+
+}
+
+
+.massage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.massage img{
+    border: 2px solid #fff;
+
+}
+
+.massage p{
+    margin-left: 15px;
+    text-align: justify;
+}
+
+/* general notice board */
+
+.general_notice_board_container{
+    width: 30%;
+    padding: 10px;
+}
+
+.notice{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px dashed black;
+}
+.left_box{
+    margin: 15px 10px;
+     
+}
+
+.left_box ul{
+    width: 60px;
+    list-style: none;
+}
+
+.left_box ul li{
+    text-align: center;
+    /* padding: 5px 10px; */
+}
+.left_box ul li:nth-child(1){
+    background-color: #900963;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.left_box ul li:nth-child(2){
+    background-color: #D3D3D3;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+/* all notice button */
+.all_noitce{
+    position: relative;
+    margin-top: 25px;
+    background-color: #fff;
+    border:1px solid #fff;
+}
+
+.all_noitce a{
+    position: absolute;
+    bottom: 8px;
+    right: 25px;
+    color: red;
+    text-decoration: none;
+}
+
+.all_noitce a:hover{
+    text-decoration: underline;
+}
+
+/* Read more button */
+.read_more{
+    float:right; 
+    margin-top: 20px;
+    padding-right: 10px;
+ }
+/* end genarel notice board */
+
+/* End massage from charmain, principal and genaral notice board */
+
+/* start About mpsc and boys notice board */
+#about_mpsc_full_width_container{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+ 
+.about_mpsc_70_persent_container{
+    width: 70%;
+    padding: 10px;
+}
+
+.boys_notice_30_persent_container{
+    width: 30%;
+}
+/* end About mpsc and boys notice board */
+
+
+/* start academic calender, girls notice and news section */
+#academic_calender_full_width_container{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.academic_calender_70_width_container{
+    width: 70%;
+}
+
+.academic_calender_30_width_container{
+    width: 30%;
+}
+
+.calender_full_width_container{
+    width: 100%;
+}
+
+.calender_toolbar_full_width{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_toolber{
+    max-width: 35%;
+    display: flex;
+    margin: 20px;
+}
+
+.left_toolber_button_group{
+    background-color: #201d1dea;
+    border-radius: 5px;
+}
+
+.left_toolber_button_group a{
+    /* background-color: #1E1E1E; */
+    color: #fff;
+    padding: 10px 15px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.left_toolber_button_group a:hover{
+    background-color: black;
+}
+
+.today_button{
+    margin-left: 10px;
+    background-color: #201d1dea;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.today_button:hover{
+    background-color: black;
+}
+
+.center_toolber{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.center_toolber h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.center_toolber h2::after{
+    content: "";
+    width: 100px;
+    height: 4px;
+    background-color: blue;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+}
+
+.right_toolber{
+    max-width: 25%;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: #201d1dea; */
+}
+
+.right_toolber_button_group{
+    background-color: #201d1dea;
+    border-radius: 5px;
+}
+
+.right_toolber_button_group a{
+    color: #fff;
+    padding: 10px 15px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.right_toolber_button_group a:hover{
+    background-color: black;
+}
+
+#table_container{
+    width: 100%;
+}
+
+table{
+    width: 100%;
+}
+
+table, th, td{
+    border: 1px solid rgba(0,0,0,0.2);
+    border-collapse: collapse;
+}
+
+table tr th{
+    text-align: center;
+}
+
+table tr td{
+    text-align: center;
+    height: 100px;
+}
+
+/* end table  */
+
+/* Start girls notice board */
+.academic_calender_30_width_container{
+    width: 30%;
+}
+
+.girls_notice_board_container{
+    width: 100%;
+}
+/* end girls notice board */
+
+/* start news and event */
+.news_and_event_board_container{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+/* end news and event */
+
+
+
+/* End main section */
+
